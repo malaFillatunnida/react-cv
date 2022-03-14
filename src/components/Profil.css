@@ -1,0 +1,64 @@
+/* .resume {
+  border-top: 10px solid white;
+  color: white;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  margin-bottom: 10px;
+} */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.head {
+  background-color: rgb(136, 115, 87);
+  /* padding: 10px; */
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+}
+.border3 {
+  /* border: 1px solid black none; */
+  border-right: 2px solid rgb(136, 115, 87);
+  padding: 20px;
+  width: 35%;
+  background-color: white;
+  float: left;
+  text-align: left;
+}
+.border4 {
+  border: 1px solid black none;
+  padding: 20px;
+  float: left;
+  width: 58%;
+  height: 894px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+/* #p {
+  padding: 20px;
+  height: 320px;
+} */
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(136, 115, 87);
+  padding: 12px;
+  border-radius: 7px;
+  color: white;
+}
+/* .wr {
+  float: left;
+  width: 245px;
+  padding: 5px;
+} */
+.ac {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+.skil {
+  float: left;
+  width: 40%;
+  height: 300px;
+}
